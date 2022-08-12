@@ -1,7 +1,6 @@
 import {useState, useEffect, useRef} from "react"
 
-export default function useGameLogic(){
-    const time = 5
+export default function useGameLogic(time){
     const [text, setText] = useState("");
     const [timeRemaining, setTimeRemaining] = useState(time)
     const [gameOn, setGameOn] =useState(false)

@@ -2,8 +2,8 @@ import React from "react";
 import useGameLogic from "./useGameLogic";
 
 function App() {
-  const {text,gameOn,timeRemaining,wordCount,textBoxRef,startGame,handleChange} = useGameLogic()
-  
+  const {text,gameOn,timeRemaining,wordCount,textBoxRef,startGame,handleChange} = useGameLogic(15)
+
   return (  
     <div className="App">
       <h1>Speed typing game</h1>
